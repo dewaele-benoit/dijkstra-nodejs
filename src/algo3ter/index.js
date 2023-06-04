@@ -111,6 +111,6 @@ const graph = {
     G: {F: 4, D: 3, E: 5}
 }
 
-console.time("F3");
-console.log("Algo de dijksta 3", dijkstra.find_path(graph, "A", "G", {cost: true}))
-console.timeEnd("F3")
+// console.time("F3");
+// console.log("Algo de dijksta 3", dijkstra.find_path(graph, "A", "G", {cost: true}))
+// console.timeEnd("F3")

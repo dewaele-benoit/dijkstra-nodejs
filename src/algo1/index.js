@@ -64,11 +64,11 @@ function dijkstra(graph, start, end) {
 }
 
 
-const graph = {
-    A: { B: 1 },
-    B: { A: 1, C: 2 },
-    C: { B: 2 }
-};
+// const graph = {
+//     A: { B: 1 },
+//     B: { A: 1, C: 2 },
+//     C: { B: 2 }
+// };
 
-
-console.log("Algo de dijksta 1", dijkstra(graph, "A", "C"))
+//
+// console.log("Algo de dijksta 1", dijkstra(graph, "A", "C"))
